@@ -61,3 +61,15 @@
   </build>
 
 </project>
+<distributionManagement>
+        <repository>
+            <id>nexus-artifact</id>
+	    <name>Release</name>
+            <url>http://10.0.2.15:8081/nexus/content/repositories/Nexus-Artifact</url> 
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://10.0.2.15:8081/nexus/content/repositories/snapshots/</url>    
+        </snapshotRepository>
+    </distributionManagement> 
