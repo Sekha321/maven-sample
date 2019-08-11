@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Rajasekhar</groupId>
-  <artifactId>Nexus Project</artifactId>
+  <artifactId>NexusProject</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
-  <name>Nexus Project</name>
+  <name>NexusProject</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
 
   <dependencies>
