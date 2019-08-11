@@ -63,12 +63,12 @@
         <repository>
             <id>Nexus-Artifact</id>
 	    <name>Release</name>
-            <url>http://10.0.2.15:8081/nexus/content/repositories/Nexus-Artifact</url> 
+            <url>http://192.168.0.6:8081/nexus/content/repositories/Nexus-Artifact</url> 
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Snapshots</name>
-            <url>http://10.0.2.15:8081/nexus/content/repositories/snapshots/</url>    
+            <url>http://192.168.0.6:8081/nexus/content/repositories/snapshots/</url>    
         </snapshotRepository>
 </distributionManagement> 
 </project>
