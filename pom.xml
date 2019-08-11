@@ -5,7 +5,7 @@
   <groupId>Rajasekhar</groupId>
   <artifactId>NexusProject</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>NexusProject</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
@@ -39,7 +39,7 @@
                     <execution>
                         <id>attach-sources</id>
                         <goals>
-                            <goal>war</goal>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -52,7 +52,7 @@
                     <execution>
                         <id>attach-javadocs</id>
                         <goals>
-                            <goal>war</goal>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
